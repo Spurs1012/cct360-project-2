@@ -15,11 +15,14 @@ $(document).ready(function() {
     $(window).scroll(function() {
         var st = $(this).scrollTop();
         if (st > lastScrollTop) {
-            navbar.css('top', '-70px');
+            navbar.css('top', '-70px').removeClass('black-background');
         } else {
-            navbar.css('top', '0px');
+            navbar.css('top', '0px').addClass('black-background');
         }
         lastScrollTop = st <= 0 ? 0 : st;
+
+        fadeInOnScroll('.work_CSA');
+        fadeInOnScroll('.work_HomeChef');
     });
 
     // Navbar toggle functionality
