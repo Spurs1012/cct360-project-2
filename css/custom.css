@@ -6,6 +6,11 @@
   --secondMainFont: 'Montserrat';
 }
 
+html, body {
+    height: 100%;
+    margin: 0; /* Added to reset any default margin */
+}
+
 body {
     background-color: #000;
     margin-bottom: 547px;
@@ -136,10 +141,14 @@ body {
     overflow: hidden;
 }
 
+.content-wrapper {
+    min-height: calc(100% - 547px);
+    padding-top: 80px;
+}
+
 .main-content {
     background-color: #000;
     padding-bottom: 200px;
-    margin-top: 250px;
 }
 
 .vertical-divider {
