@@ -423,6 +423,7 @@ body {
 .user-persona-section,
 .problem-and-value-section,
 .user-journey-map-section,
+.storyboard-section,
 .user-flow-section,
 .wireframes-section,
 .usability-testing-low-fi-section,
@@ -456,8 +457,10 @@ body {
 .problem-and-value-section .row,
 .arrow-container,
 .user-journey-map-section .row,
+.storyboard-section .row,
 .user-flow-section .row,
 .usability-testing-low-fi-section .row,
+.table-container .row,
 .feedback-analysis-slm-section .row,
 .feedback-analysis-fpm-section .row,
 .iteration-process-section .row,
@@ -503,10 +506,6 @@ body {
     justify-content: center;
 }
 
-.like-wish-if-categorize {
-    margin-top: 100px;
-}
-
 .image-shadow {
    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
@@ -544,6 +543,24 @@ body {
 
 #homechef-mockup-video::-webkit-media-controls {
     display: none !important;
+}
+
+/* usability-testing-low-fi
+.testing-heading {
+    font-family: var(--secondMainFont);
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: #000;
+} */
+
+#before,
+#after {
+    font-family: var(--secondMainFont);
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: #000;
 }
 
 /* More Works */

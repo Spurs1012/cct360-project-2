@@ -23,6 +23,7 @@ $(document).ready(function() {
 
         fadeInOnScroll('.work_CSA');
         fadeInOnScroll('.work_HomeChef');
+        fadeInOnScroll('.work_PureRoaming');
     });
 
     // Function to toggle navbar on click
@@ -63,9 +64,9 @@ $(document).ready(function() {
     }
 
     // Apply fade-in animation on page load for specific sections
-    applyFadeInOnLoad('.work_PureRoaming');
-    applyFadeInOnLoad('.work_CSA');
     applyFadeInOnLoad('.work_HomeChef');
+    applyFadeInOnLoad('.work_CSA');
+    applyFadeInOnLoad('.work_PureRoaming');
 
     // Function to apply fade-in animation on page load
     function applyFadeInOnLoad(selector) {

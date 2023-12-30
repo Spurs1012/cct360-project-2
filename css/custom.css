@@ -196,12 +196,12 @@ body {
     visibility: hidden;
 }
 
-.work_PureRoaming, .vertical-divider {
+.work_HomeChef, .vertical-divider {
     animation: fadeInUp 1s ease forwards;
     opacity: 0;
 }
 
-.work_PureRoaming.animate, .vertical-divider.animate {
+.work_HomeChef.animate, .vertical-divider.animate {
     animation: fadeInUp 1s ease forwards;
 }
 
@@ -222,17 +222,17 @@ body {
     animation-fill-mode: forwards;
 }
 
-.work_CSA, .work_HomeChef {
+.work_HomeChef, .work_CSA, .work_PureRoaming {
     opacity: 0;
 }
 
-.work_PureRoaming, 
+.work_HomeChef, 
 .work_CSA {
     height: auto;
     margin-bottom: 200px;
 }
 
-.work_PureRoaming .row,
+.work_HomeChef .row,
 .work_CSA .row {
     background-color: #000;
     height: auto;
